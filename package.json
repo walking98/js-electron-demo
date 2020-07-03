@@ -6,7 +6,7 @@
   "scripts": {
     "start": "electron .",
     "dist": "electron-builder",
-    "package": "electron-packager ./ hw --electron-version 9.0.5 --out ./OutApp --arch=x64 --asar"
+    "package": "electron-packager ./ hw --electron-version 9.0.5 --out ./OutApp --arch=x64 "
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [

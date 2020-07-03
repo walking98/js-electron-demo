@@ -13,16 +13,15 @@
     Chromium <span id="chrome-version"></span>,
     and Electron <span id="electron-version"></span>.<br/><br/>
 
-    <button id = "add">新建窗口</button>&nbsp;&nbsp;<button id = "dev">打开/关闭devTool</button><button id="put-in-tray">tray</button><br/><br/>
-    <input type="text" id="word" /><button id = "tcp8085">tcp 8085</button><br/><br/>
-    <button id = "pwd">pwd</button><div id="message"></div><br/><br/>
-    <button id = "cpp">调用cpp库</button><div id="message-cpp"></div><br/><br/>
+    <button id = "add">新建窗口</button>&nbsp;&nbsp;<button id = "dev">打开/关闭devTool</button><button id="put-in-tray">托盘2</button><br/><br/>
+    <input type="text" id="word" /><button id = "tcp8085">调用tcp服务</button><br/><br/>
+    <button id = "pwd">调用系统命令pwd</button><div id="message"></div><br/><br/>
+    <button id = "cpp">调用cpp库</button> <div id="message-cpp"></div><br/><br/>
+    <button id = "readFile">调用fs库</button> <div id="file-content"></div><br/><br/>
     <!-- You can also require other files to run in this process -->
-    <!-- 
-<script  src="./tray.js"></script>
-    -->
-    
-    <script  src="./renderer.js"></script>
-    <script  src="./invokecpp.js"></script>
+    <script  src="./renderer/tray.js"></script>
+    <script  src="./renderer/renderer.js"></script>
+    <script  src="./renderer/invokecpp.js"></script>
+    <script  src="./renderer/file.js"></script>
   </body>
 </html>
